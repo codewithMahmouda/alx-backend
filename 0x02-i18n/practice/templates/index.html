@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Babel</title>
+    <style>
+        body {
+        background-color: green;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+ <h1>Hello world</h1>
+ <h1>Computer: {{ _('computer') }}</h1>
+ <h1>Name: {{ name }}</h1>
+<h2>Us Numbers: {{ results['us_num']}}</h2>
+<h3>SE Numbers: {{ results['se_num']}}</h3>
+<h3>GE Numbers: {{ results['de_num']}}</h3>
+<h4>Us Date: {{ results['us_date']}}</h4>
+<h4>SE Date: {{ results['se_date']}}</h4>
+<h4>GE Date: {{ results['ge_date']}}</h4>
+<h4>Us FormattedDate: {{ results['us_format']}}</h4>
+</body>
+</html>
